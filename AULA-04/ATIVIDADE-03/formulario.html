@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Formulário </title>
+</head>
+
+<body>
+    <h1> Informações Pessoais </h1>
+    <form action="http://localhost:3003/usuarios" method="POST">
+        <fieldset style="width:50%">
+            <legend>Cadastro do Cliente</legend>
+            <div>
+                <label for="name">Nome: </label>
+                <input style="width:50%" type="text" name="name" id="name" placeholder="Digite o nome" required>
+            </div>
+            <div>
+                <label for="texto">Sexo: </label>
+                <input type="radio" name="tipoM" value="masc"> Masculino
+                <input type="radio" name="tipoF" value="fem"> Feminino
+            </div>
+            <div>
+                <label for="age">Idade: </label>
+                <input style="width:15%" type="number" name="age" min="0" placeholder="Digite a idade">
+            </div>
+            <div>
+                <label for="adress">Endereço: </label>
+                <input style="width:70%" type="text" name="endereco" placeholder="Digite o endereço">
+            </div>
+            <div>
+                <label for="city">Cidade: </label>
+                <input style="width:40%" type="text" name="cidade" placeholder="Digite a cidade">
+            </div>
+            <div>
+                <label for="state">Estado: </label>
+                <select name="estado">
+                    <option value="">UF</option>
+                    <option value="ac">AC</option>
+                    <option value="al">AL</option>
+                    <option value="ap">AP</option>
+                    <option value="am">AM</option>
+                    <option value="ba">BA</option>
+                    <option value="ce">CE</option>
+                    <option value="df">DF</option>
+                    <option value="es">ES</option>
+                    <option value="go">GO</option>
+                    <option value="ma">MA</option>
+                    <option value="mt">MT</option>
+                    <option value="ms">MS</option>
+                    <option value="mg">MG</option>
+                    <option value="pa">PA</option>
+                    <option value="pb">PB</option>
+                    <option value="pr">PR</option>
+                    <option value="pe">PE</option>
+                    <option value="pi">PI</option>
+                    <option value="rr">RR</option>
+                    <option value="ro">RO</option>
+                    <option value="rj">RJ</option>
+                    <option value="rn">RN</option>
+                    <option value="rs">RS</option>
+                    <option value="sc">SC</option>
+                    <option value="sp">SP</option>
+                    <option value="se">SE</option>
+                    <option value="to">TO</option>
+                </select>
+            </div>
+            <div>
+                <label for="cep">CEP: </label>
+                <input style="width:23%" type="text" name="cep" placeholder="XXXXX-XX">
+            </div>
+            <div>
+                <label for="phoneRes">Tel/Res: </label>
+                <input type="text" name="phoneRes" placeholder="(99)99999-9999">
+            </div>
+            <div>
+                <label for="phoneCel">Tel/Cel: </label>
+                <input type="text" name="phoneCel" placeholder="(99)99999-9999">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input style="width:50%" type="email" name="email" placeholder="Digite o endereço de email">
+            </div>
+        </fieldset>
+        <button formaction="http://localhost:3003/usuarios">Incluir</button>
+    </form>
+
+</body>
+
+</html>
+
+<style>
+    div {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    div label {
+        margin-right: 10px;
+        display: inline-block;
+        width: 60px
+    }
+
+    button {
+        margin-top: 10px;
+    }
+</style>
