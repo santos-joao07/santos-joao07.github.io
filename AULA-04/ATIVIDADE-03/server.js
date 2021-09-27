@@ -10,6 +10,4 @@ app.post('/usuarios', (request, response) => {
     return response.send(`<h1>Parabéns! Usuário(a): ${request.body.name}, incluído(a) com sucesso!</h1>`)
 })
 
-app.listen(3003, () => {
-    console.log('O servidor está rodando na porta: 3333');
-})
+app.listen(3003)
