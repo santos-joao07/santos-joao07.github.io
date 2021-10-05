@@ -1,0 +1,201 @@
+﻿WEBVTT 
+
+1
+00:00:00.330 --> 00:00:02.400
+Once upon a time, there is internet.
+
+2
+00:00:02.670 --> 00:00:05.849
+You know, a bunch of computers
+all connected by wires.
+
+3
+00:00:06.269 --> 00:00:08.389
+One person on a computer
+can read documents
+
+4
+00:00:08.489 --> 00:00:12.449
+from another person's computer
+using a language called HTML.
+
+5
+00:00:12.659 --> 00:00:15.960
+Each computer's web browser
+can properly display these documents.
+
+6
+00:00:16.649 --> 00:00:20.370
+Add success to the mix, and you've got
+a beautifully styled web page.
+
+7
+00:00:20.969 --> 00:00:23.389
+It is important to note
+that neither HDMI out
+
+8
+00:00:23.489 --> 00:00:25.920
+nor CSR programming languages.
+
+9
+00:00:26.579 --> 00:00:30.529
+Back in 1995, a few people at Netscape
+started to wonder what
+
+10
+00:00:30.629 --> 00:00:32.849
+if there was a way
+to write a computer program
+
+11
+00:00:32.970 --> 00:00:34.400
+for the browser?
+
+12
+00:00:34.500 --> 00:00:38.700
+This way, when HDMI access gets sent
+from one computer to another,
+
+13
+00:00:38.939 --> 00:00:40.939
+you can also send over some programs.
+
+14
+00:00:41.319 --> 00:00:43.880
+All this code
+would run in someone's web browser
+
+15
+00:00:43.979 --> 00:00:46.590
+and create an even better user experience.
+
+16
+00:00:47.369 --> 00:00:49.529
+Thus, JavaScript was born.
+
+17
+00:00:50.470 --> 00:00:52.290
+You're probably familiar with Twitter.
+
+18
+00:00:52.389 --> 00:00:54.659
+They use a lot of JavaScript
+on their web page
+
+19
+00:00:54.759 --> 00:00:58.080
+to do things such
+as opening up a tweet in a bigger window,
+
+20
+00:00:58.180 --> 00:00:59.340
+for instance.
+
+21
+00:00:59.439 --> 00:01:03.790
+Also, any of the actions below a tweet
+will trigger some JavaScript to be run
+
+22
+00:01:04.629 --> 00:01:06.930
+if I click the star to favorite a tweet.
+
+23
+00:01:07.029 --> 00:01:08.669
+JavaScript will tell the server.
+
+24
+00:01:08.769 --> 00:01:11.910
+This tweet is now a favorite
+if I click on reply.
+
+25
+00:01:12.010 --> 00:01:14.800
+You can see the JavaScript behavior
+at work yet again.
+
+26
+00:01:15.129 --> 00:01:17.730
+It focuses on the expanded reply box.
+
+27
+00:01:17.830 --> 00:01:21.160
+All of this behavior
+is made possible by JavaScript.
+
+28
+00:01:21.790 --> 00:01:25.480
+It's worth mentioning
+that Java is not JavaScript.
+
+29
+00:01:26.169 --> 00:01:28.449
+They are two separate
+programming languages.
+
+30
+00:01:28.870 --> 00:01:31.750
+JavaScript is not just for programming
+in the browser,
+
+31
+00:01:32.230 --> 00:01:37.269
+but on servers, game programming databases
+and even robots.
+
+32
+00:01:38.230 --> 00:01:41.340
+Robots are only limited
+by our imagination.
+
+33
+00:01:41.440 --> 00:01:44.700
+Are you excited yet to get started?
+
+34
+00:01:44.800 --> 00:01:47.190
+If you're new to these parts,
+please take a moment to play
+
+35
+00:01:47.290 --> 00:01:50.709
+through our free five minute tutorial
+on JavaScript, Gqom,
+
+36
+00:01:50.809 --> 00:01:53.319
+or you can head over
+to our Getting Started page,
+
+37
+00:01:53.650 --> 00:01:57.840
+where we've curated a list of free places
+to learn on our news page.
+
+38
+00:01:57.940 --> 00:02:00.010
+You can submit your own JavaScript news.
+
+39
+00:02:00.730 --> 00:02:02.730
+Read what other people have posted.
+
+40
+00:02:03.250 --> 00:02:07.330
+Subscribe to our weekly newsletter
+or listen to our podcast.
+
+41
+00:02:08.740 --> 00:02:10.869
+Welcome to the wonderful world
+of JavaScript.
+
+42
+00:02:11.169 --> 00:02:12.949
+We hope you enjoy your stay.
+
+43
+00:02:13.050 --> 00:02:14.979
+Awesome. Let's try it.
+
