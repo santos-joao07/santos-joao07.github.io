@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Interno, Externo e Inline</title>
+    <style>
+        .container {
+            background-color: rgb(80, 200, 250);
+            width: calc(100% - 650px);
+            font-family: Helvetica, sans-serif;
+        }
+
+        .title {
+            color: #0533c7;
+            background-color: rgb(8, 161, 226);
+            font-size: 20px;
+
+        }
+
+        .caption {
+            color: rgb(170, 32, 43);
+            font-size: 16px;
+        }
+
+        .description {
+            font-size: 14px;
+        }
+    </style>
+    <link rel="stylesheet" href="externo.css">
+</head>
+
+
+
+<body>
+
+    <!-- /////////////////////////////////////////    INTERNO      //////////////////////////////////////// -->
+
+    <section class='container'>
+
+        <h4 class='title'>
+            Capítulo 1
+        </h4>
+
+        <h3 class='caption'> Capítulo 1.1 </h3>
+
+        <p class='description'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit assumenda itaque vitae
+            optio modi quaerat aperiam perspiciatis dignissimos sit repudiandae asperiores ipsam officiis
+            aliquid explicabo quis fuga nesciunt, esse possimus.
+        </p>
+
+        <h3 class="title"> Capítulo 1.2 </h3>
+
+        <p class='description'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel debitis omnis illo sunt, accussantium
+            quaerat provident quam eius consequuntur quae veritatis id alias laudantium porro natus expedita,
+            hic et recusandae?
+        </p>
+
+        <h4 class='title'>
+            Capítulo 2
+        </h4>
+
+        <h3 class='caption'> Capítulo 2.1 </h3>
+
+        <p class='description'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus blanditiis earum molestiae quasi,
+            repellendus quis assumenda nesciunt quo, ullam animi aspernatur deserunt aliquam deleniti totam aut
+            culpa dolorem reprehenderit facere?
+
+        </p>
+
+    </section>
+    <!-- /////////////////////////////////////////    EXTERNO      //////////////////////////////////////// -->
+
+    <section class='conteudo'>
+
+        <h4 class='titulo'>
+            Capítulo 1
+        </h4>
+
+        <h3 class='subtitulo'> Capítulo 1.1 </h3>
+
+        <p class='descricao'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit assumenda itaque vitae
+            optio modi quaerat aperiam perspiciatis dignissimos sit repudiandae asperiores ipsam officiis
+            aliquid explicabo quis fuga nesciunt, esse possimus.
+        </p>
+
+        <h3 class='subtitulo'> Capítulo 1.2 </h3>
+
+        <p class='descricao'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel debitis omnis illo sunt, accussantium
+            quaerat provident quam eius consequuntur quae veritatis id alias laudantium porro natus expedita,
+            hic et recusandae?
+        </p>
+
+        <h4 class='titulo'>
+            Capítulo 2
+        </h4>
+
+        <h3 class='subtitulo'> Capítulo 2.1 </h3>
+
+        <p class='descricao'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus blanditiis earum molestiae quasi,
+            repellendus quis assumenda nesciunt quo, ullam animi aspernatur deserunt aliquam deleniti totam aut
+            culpa dolorem reprehenderit facere?
+
+        </p>
+
+    </section>
+
+     <!-- /////////////////////////////////////////    INLINE      //////////////////////////////////////// -->
+
+    <section style="background-color: #fff6d8;
+    font-family: Helvetica, sans-serif; width: calc(100% - 650px);">
+
+        <h4 style="color: rgb(170, 32, 43); background-color: rgb(206, 172, 22); font-size: 20px;
+    text-decoration: underline;">
+            Capítulo 1
+        </h4>
+
+        <h3 style="color: rgb(170, 32, 43); font-size: 16px;"> Capítulo 1.1 </h3>
+
+        <p style="font-size: 14px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit assumenda itaque vitae
+            optio modi quaerat aperiam perspiciatis dignissimos sit repudiandae asperiores ipsam officiis
+            aliquid explicabo quis fuga nesciunt, esse possimus.
+        </p>
+
+        <h3 style="color: rgb(170, 32, 43); font-size: 16px;"> Capítulo 1.2 </h3>
+
+        <p style="font-size: 14px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel debitis omnis illo sunt, accussantium
+            quaerat provident quam eius consequuntur quae veritatis id alias laudantium porro natus expedita,
+            hic et recusandae?
+        </p>
+
+        <h4 style="color: rgb(170, 32, 43); background-color: rgb(206, 172, 22); font-size: 20px;
+    text-decoration: underline;">
+            Capítulo 2
+        </h4>
+
+        <h3 style="color: rgb(170, 32, 43); font-size: 16px;"> Capítulo 2.1 </h3>
+
+        <p style="font-size: 14px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus blanditiis earum molestiae quasi,
+            repellendus quis assumenda nesciunt quo, ullam animi aspernatur deserunt aliquam deleniti totam aut
+            culpa dolorem reprehenderit facere?
+
+        </p>
+
+    </section>
+
+</body>
+
+</html>

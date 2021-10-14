@@ -1,0 +1,39 @@
+* {
+    background-color: #fff6d8;
+    font-family: Helvetica, sans-serif
+}
+
+aside {
+    width: 11%;
+    height: 100vh;
+    float: left;
+    margin-right: 20px;
+    background-image: url(cabecalhos_back.png);
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.title {
+    color: #906718;
+    font-weight: bold;
+    width: 60%;
+}
+
+.description {
+    width: 75%;
+    text-indent: 29px;
+    font-size: 15px;
+}
+
+[order='last paragraph'] {
+    padding-bottom: 10px;
+    border-bottom: 3px dashed #d48b00;
+}
+
+#important {
+    background-color: #d48b00;
+    width: 75%;
+    color: #fff;
+}

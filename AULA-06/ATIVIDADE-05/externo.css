@@ -1,0 +1,21 @@
+ .conteudo {
+     background-color: rgba(125, 159, 175, 0.479);
+     width: calc(100% - 650px);
+     font-family: Helvetica, sans-serif;
+ }
+
+ .titulo {
+     color: #0533c7;
+     background-color: rgba(53, 184, 240, 0.281);
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+.subtitulo {
+     color: rgb(170, 32, 43);
+     font-size: 16px;
+ }
+
+ .descricao {
+     font-size: 14px;
+ }
