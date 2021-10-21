@@ -1,0 +1,28 @@
+body {
+    background-color: #fcfcfc;
+    font-family: Helvetica, sans-serif;
+    width: 55%
+}
+
+h2 {
+    color: #764e36;
+    font-weight: bold;
+    border-top: 1px solid #764e36;
+    border-bottom: 1px solid #764e36;
+}
+
+h4 {
+    padding: 3px;
+    color: #fcfcfc;
+    background-color: #764e36;
+}
+
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 100px;
+}
