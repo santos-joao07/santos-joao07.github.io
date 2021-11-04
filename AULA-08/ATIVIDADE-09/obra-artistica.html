@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Obra artística </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .joined {
+            display: flex;
+        }
+
+        .image {
+            height: 27vw;
+            width: 100%;
+        }
+
+        .image img {
+            width: 100%;
+        }
+
+        #image1,
+        #image2 {
+            height: 25vw;
+            width: 100%;
+        }
+
+        .margin {
+            margin: 20px;
+        }
+
+        @media(min-width: 420px) and (max-width: 679px) {
+            .flex-container {
+                flex-wrap: wrap;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            .image {
+                height: auto;
+                width: 100%;
+            }
+
+            #image1,
+            #image2 {
+                height: 22vw;
+                width: 100%;
+            }
+
+        }
+
+        @media(max-width: 419px) {
+            .flex-container {
+                flex-direction: column;
+            }
+
+            .joined {
+                flex-direction: column;
+            }
+
+            .margin {
+                display: block;
+            }
+
+            .image {
+                height: auto;
+                width: 100%;
+            }
+
+            #image1,
+            #image2 {
+                height: 40vw;
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="joined">
+            <div class="margin">
+                <div class="image">
+                    <img id="image1" src="image/ron-mueck-1.JPG" alt="Obra artística">
+                </div>
+                <h3> Lorem ipsum dolor sit amet </h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatibus deleniti asperiores atque
+                    laudantium dolorem, ad qui voluptate repellat velit, fuga quaerat ipsa dicta quam cupididate labore
+                    corporis enim tenetur.
+                </p>
+
+            </div>
+
+            <div class="margin">
+                <div class="image">
+                    <img id="image2" src="image/ron-mueck-2.JPG" alt="Obra artística">
+                </div>
+
+                <h3> Libero iure reiciendis </h3>
+
+                <p>
+                    Libero iure reiciendis, nam ullan deserunt sint fugit maxime, quasi officiis itaque, eos modi
+                    deleniti! Atque et nobis libero, ratione, ut enim amet animi modi ducimus adipisci officiis neque
+                    quasi!
+                </p>
+
+            </div>
+        </div>
+
+        <div class="margin">
+            <div class="image">
+                <img id="image3" src="image/ron-mueck-3.JPG" alt="Obra artística">
+            </div>
+
+            <h3> Quidem quas reiciendis </h3>
+
+            <p>
+                Quidem quas reiciendis, doloremque molestias adipisci, laboriosam aliquid, perspiciatis ullam
+                maiores quia numquam velit reprehenderit, dolorem vel! Qui veniam adipisci earum numquam voluptate,
+                modi velit porro officiis laborum iusto itaque.
+            </p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
