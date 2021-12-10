@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .starsContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .starsContainer {
+        float: right;
+      }
+
+      h1 {
+        border-bottom-style: inset
+      }
+      
+      .group-fields {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      button {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="starsContainer">
+      <form>
+        <h1>Fábrica de Estrelas 2</h1>
+        <div class="group-fields">
+          <label for="stars">Número de Linhas</label>
+          <input
+            type="number"
+            name="stars"
+            id="stars"
+            class="stars"
+            placeholder="Digite um número"
+          />
+        </div>
+        <button type="button">Criar Estrelas</button>
+        <div class="result"></div>
+      </form>
+      <img src="./img01.jpg" alt="gráfico" />
+    </div>
+  </body>
+</html>
+
+<script>
+  const createStars = document.querySelector(".stars");
+  const button = document.querySelector("button");
+  const result = document.querySelector(".result");
+
+  button.addEventListener("click", function(event) {
+      stars = Number(createStars.value);
+      result.innerHTML = "";
+      for (let i = 0; i < stars; i++) {
+        const star = document.createElement("span");
+        star.innerHTML += "*";
+        result.appendChild(star);
+      }
+  })
+</script>

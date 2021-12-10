@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .chinchilas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        border-bottom-style: inset
+      }
+      
+      .group-fields {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      button {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chinchilas">
+      <img src="./img01.jpg" alt="gráfico" />
+      <form>
+        <h1>Programa Criação de Chinchilas</h1>
+        <div class="group-fields">
+          <label for="numberChinchilas">Nº Chinchilas</label>
+          <input
+            type="number"
+            name="numberChinchilas"
+            id="numberChinchilas"
+            class="numberChinchilas"
+            placeholder="Digite um número"
+          />
+        </div>
+        <div class="group-fields">
+          <label for="numberYears">Nº Anos</label>
+          <input
+            type="number"
+            name="numberYears"
+            id="numberYears"
+            class="numberYears"
+            placeholder="Digite um número"
+          />
+        </div>
+        <button type="button">Mostra Previsão de Chinchilas</button>
+        <div class="result"></div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script>
+  const numberChinchilas = document.querySelector(".numberChinchilas");
+  const numberYears = document.querySelector(".numberYears");
+  const button = document.querySelector("button");
+  const result = document.querySelector(".result");
+
+  button.addEventListener("click", function(event) {
+      event.preventDefault();
+      result.innerHTML = ''
+      const number = Number(numberChinchilas.value);
+      let years = Number(numberYears.value);
+      if (number <= 1) {
+        alert("Digite um número maior que 1");
+        return;
+      }
+      let total = number;
+      let text = "";
+      let count = 1;
+      while (years > 0) {
+        text += `${count}º Ano: ${total} Chinchilas <br> `
+        total *= 3;
+        years--;
+        count++
+      }
+      result.innerHTML += `${text}` ;
+  })
+</script>
