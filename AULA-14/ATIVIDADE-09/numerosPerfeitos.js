@@ -1,12 +1,15 @@
 function verificaNumeroPerfeito() {
     var inNumero = document.getElementById('inNumero')
     var outNumero = document.getElementById('outNumero')
-    var outSoma = document.getElementById('outSoma')
+    var outResultado = document.getElementById('outResultado')
 
     var numero = Number(inNumero.value)
     var resposta = "Divisores do " + numero + ": "
-    let metade = numero / 2
-    let aux = 1
+    var resultado = ""
+    var metade = numero / 2
+    var soma = 0
+    var aux = 1
+    
     
 
     if (isNaN(numero)) {
@@ -15,15 +18,23 @@ function verificaNumeroPerfeito() {
         return
     }
     while(aux <= metade) {
-        if(numero % aux == 0) {
+        if(numero % aux == 0) {  
             soma = soma + aux
-            resposta =  resposta + aux + ","
+            resposta =  resposta + aux + "," 
         }
+        
         aux++
     }
 
-    outNumero.textContent = resposta
-    outSoma.textContent = soma
+
+    if(soma == numero) {
+        resultado = numero + " É um Número Perfeito"
+    } else {
+        resultado = numero + " Não É um Número Perfeito"
+    }
+
+    outNumero.textContent = resposta + " (Soma: " + soma + ")"
+    outResultado.textContent = resultado
 }
 
 

@@ -60,12 +60,13 @@
   const result = document.querySelector(".result");
 
   button.addEventListener("click", function(event) {
+    result.innerHTML = "";
+    const star = document.createElement("span");
       stars = Number(createStars.value);
-      result.innerHTML = "";
+      let text = "";
       for (let i = 0; i < stars; i++) {
-        const star = document.createElement("span");
-        star.innerHTML += "*";
-        result.appendChild(star);
+        text += "*";
+        result.innerHTML += `${text} <br>`;
       }
   })
 </script>
